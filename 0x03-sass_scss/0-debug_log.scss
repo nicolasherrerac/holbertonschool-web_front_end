@@ -1,4 +1,5 @@
 /* Print in the debug output */
+$hello: 'Hello World';
 body {
-	@debug 'Hello World'
+	@debug $hello;
     }
